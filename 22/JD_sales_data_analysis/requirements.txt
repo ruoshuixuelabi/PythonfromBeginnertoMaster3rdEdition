@@ -1,0 +1,7 @@
+pandas
+xlrd
+xlwt
+scipy
+numpy
+matplotlib
+scikit-learn

@@ -1,0 +1,18 @@
+1.快速启动qt设计工具（Designer ）
+   （1）工具名称（Qt Designer ）
+   （2）Designer 安装路径需要指定.exe文件
+   （3）指定项目文件目录（$ProjectFileDir$）
+
+
+2.快速将ui文件转换为py文件
+   （1）工具名称（PyUIC）
+   （2）Python安装路径需要指定.exe文件
+   （3）填写转换文件的代码（-m PyQt5.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py）
+   （4）指定文件目录（$FileDir$）
+
+
+3.快速转换资源文件
+    （1）工具名称（qrcTopy）
+    （2）填写pyrcc5安装路径需要指定.exe文件
+    （3）填写转换文件的代码（$FileName$ -o $FileNameWithoutExtension$_rc.py）
+    （4）填写文件目录（$FileDir$）
