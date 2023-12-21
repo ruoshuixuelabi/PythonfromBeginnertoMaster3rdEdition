@@ -15,7 +15,7 @@ while True:
             newlist.remove("")
         prince = float(newlist[1])
         id = id + 1
-        result += "%06d\t" % id + "  " + newlist[0] + "  " +  "    " + chr(65509) + " %.2f" % prince + "\n"
+        result += "%06d\t" % id + "  " + newlist[0] + "  " + "    " + chr(65509) + " %.2f" % prince + "\n"
     else:
         break
 print(result)
